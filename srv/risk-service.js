@@ -20,7 +20,7 @@ module.exports = cds.service.impl(async function() {
                 risk.criticality = 1;
             } else {
                 risk.criticality = 2;
-            }
+            } 
 
             // set criticality for priority
             switch (risk.prio_code) {
